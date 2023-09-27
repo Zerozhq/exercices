@@ -1,0 +1,72 @@
+* {
+  display: flexbox;
+  margin: 0px 15px 0 10px;
+}
+
+body {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  color: red;
+
+  background-image: url("https://c.wallhere.com/photos/05/3e/architecture_castle_medieval_night_trees_leaves_dark_A_Plague_Tale_Innocence-1772875.jpg!d");
+  background-size: cover;
+
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 100px;
+  color: aquamarine;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, rgb(243, 26, 11), rgb(151, 3, 3), rgb(27, 1, 1));
+  color: black;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.fire {
+  background-image: url("https://gestaodesegurancaprivada.com.br/wp-content/uploads/teoria-da-fogo.jpg");
+  color: black;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+p {
+  text-align: justify;
+}
+
+#just {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#cadastrar {
+  background: #0066A2;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+  text-align: center;
+}
